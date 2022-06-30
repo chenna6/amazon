@@ -14,7 +14,7 @@ pipeline {
           
            stage("build"){
           steps{
-           sh "mvn -f amazonweb/om.xml clean package"
+           sh "mvn -f amazonweb/pom.xml clean package"
            }
           }
         
