@@ -6,7 +6,7 @@ pipeline {
   }
 
     stages {
-       stage("Git Checkout harsha"){
+       stage("Git Checkout @"){
           steps{
            git 'https://github.com/chenna6/amazon.git'
            }
